@@ -8,8 +8,8 @@
 </head>
 <body>
 <H1>登录页</H1>
-<a href="/gotoPage?pageName=index">回到首页（String）</a>
+<a href="${pageContext.request.contextPath}/gotoPage?pageName=index">回到首页（String）</a>
 <br/>
-<a href="/gotoPage2?pageName=index">回到首页（ModelAndView）</a>
+<a href="${pageContext.request.contextPath}/gotoPage2?pageName=index">回到首页（ModelAndView）</a>
 </body>
 </html>
